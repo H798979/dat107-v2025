@@ -19,7 +19,7 @@ public class Prosjektdeltagelse {
     private int timer;
     
     @ManyToOne
-    @JoinColumn(name="ansattid")
+    @JoinColumn(name="Ansatt id")
     private Ansatt ansatt;
     
     @ManyToOne

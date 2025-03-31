@@ -31,11 +31,11 @@ public class Prosjekt {
         deltagelser.forEach(a -> a.skrivUt("\n   "));
     }
 
-    public void leggTilProsjektdeltagelse(Prosjektdeltagelse prosjektdeltagelse) {
+    public void leggTilProsjektdeltagere(Prosjektdeltagelse prosjektdeltagelse) {
         deltagelser.add(prosjektdeltagelse);
     }
 
-    public void fjernProsjektdeltagelse(Prosjektdeltagelse prosjektdeltagelse) {
+    public void fjernProsjektdeltagere(Prosjektdeltagelse prosjektdeltagelse) {
         deltagelser.remove(prosjektdeltagelse);
     }
 
